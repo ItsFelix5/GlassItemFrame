@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "glassitemframes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DropGlassItemFrame",
+    "DropGlowGlassItemFrame"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

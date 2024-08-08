@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "glassitemframes",
+  "version": "${version}",
+  "name": "Glass Item Frames",
+  "description": "Invisible item frames!",
+  "authors": [
+    "itsfelix5"
+  ],
+  "contact": {
+    "website": "https://modrinth.com/project/glassitemframes",
+    "repo": "https://github.com/felix/glassitemframes"
+  },
+  "license": "MIT",
+  "entrypoints": {
+    "main": ["glassitemframes.Main"]
+  },
+  "mixins": ["glassitemframe.mixin.json"],
+  "icon": "assets/glassitemframes/textures/item/glass_item_frame.png",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "fabric": "*"
+  }
+}
