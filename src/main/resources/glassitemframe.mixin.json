@@ -3,6 +3,7 @@
   "package": "glassitemframes.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "DecorationItemMixin",
     "GlowItemFrameMixin",
     "ItemFrameMixin"
   ],
